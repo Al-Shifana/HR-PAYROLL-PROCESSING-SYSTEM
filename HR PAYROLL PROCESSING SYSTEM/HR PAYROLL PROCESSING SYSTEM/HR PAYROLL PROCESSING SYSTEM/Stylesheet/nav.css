@@ -1,0 +1,90 @@
+﻿
+/*body {
+
+    /*background: linear-gradient(to right, #ffffff 0%, #99ccff 100%);*/
+
+}
+
+*/
+
+body {
+    font-family: sans-serif;
+    overflow-x: auto;
+}
+
+nav {
+    height: 70px;
+    max-width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,153,233,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.container-fluid {
+    position: absolute;
+    height: 50px;
+    top: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+/* General navigation bar style */
+
+.navbar {
+    background-color: darkblue !important;
+    color: darkblue;
+}
+
+/* Navbar items style */
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+/* Dropdown menu style */
+
+.dropdown-menu {
+    background-color: #343a40;
+    display: none; /* Initially hide dropdowns */
+}
+
+/* Dropdown item style */
+
+.dropdown-item {
+    color: white;
+}
+
+nav-link {
+    color: white;
+}
+
+/* Navbar items hover effect */
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block; /* Display dropdown on parent hover */
+}
+
+.dropdown-menu-end {
+    left: auto;
+    right: 0;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    padding-bottom: 0rem;
+    background-color: #0174BE;
+    color: #0174BE;
+}
+
+.mainBox {
+    min-height: 84vh !important;
+}
+ 
+ 

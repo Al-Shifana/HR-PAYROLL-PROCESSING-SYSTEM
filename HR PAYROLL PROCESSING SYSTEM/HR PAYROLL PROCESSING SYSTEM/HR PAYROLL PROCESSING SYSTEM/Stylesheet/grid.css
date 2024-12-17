@@ -1,0 +1,89 @@
+﻿
+.grid-view {
+    width: 100%;
+    margin-left: 30px;
+    align-items: center;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+.grid-view th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+.grid-view td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+.grid-view tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.grid-view tr:hover {
+    background-color: #d9edf7;
+}
+
+
+.description-text {
+    color: #333;
+    font-size: 14px;
+}
+
+
+.description-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.grid-view input[type="button"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+    .grid-view input[type="button"][value="Cancel"] {
+        background-color: #dc3545;
+    }
+
+
+    .grid-view input[type="button"][value="Update"] {
+        background-color: #007bff;
+    }
+
+
+.code-label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+

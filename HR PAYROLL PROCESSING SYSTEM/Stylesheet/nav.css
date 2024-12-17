@@ -1,0 +1,171 @@
+﻿body {
+    font-family: Roboto;
+    overflow-x: auto;
+    background: linear-gradient(to right, #ffffff 0%, #99ccff 100%);
+    background-image: url('../Images/img7.jpg');
+}
+nav {
+    height: 70px;
+    max-width: 100%;
+    background: #555176;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.container-fluid {
+    position: absolute;
+    height: 50px;
+    top: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+
+.navbar {
+    background-color: #586389 !important;
+    color: darkblue;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+
+
+.dropdown-menu {
+    background-color: #343a40;
+    display: none;
+}
+
+
+.dropdown-item {
+    color: white;
+}
+
+nav-link {
+    color: white;
+}
+
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu-end {
+    left: auto;
+    right: 0;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    padding-bottom: 0rem;
+    background-color: #0174BE;
+    color: #0174BE;
+}
+
+.mainBox {
+    min-height: 84vh !important;
+}
+
+
+.footer {
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255, 0.5);
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    height: 85px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: space-around;
+    padding: 5px;
+}
+
+.master-link ul {
+    text-decoration: none;
+    display: flex;
+}
+
+.master-link li {
+    margin-right: 15px;
+    list-style: none;
+}
+
+    .master-link li a {
+        text-decoration: none;
+        color: white !important;
+    }
+
+
+.outer-container-master {
+    padding-top: 75px;
+    width: 100%;
+    padding-bottom: 60px;
+    overflow: auto;
+}
+
+.grid-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+th {
+    color: white !important;
+}
+
+    th a {
+        text-decoration: none;
+    }
+
+.tbl-header {
+    background-color: darkblue;
+    font-weight: bold;
+}
+
+div.ui-datepicker {
+    font-size: 14.5px !important;
+    background-color: #818181;
+}
+
+.ui-datepicker th {
+    padding: 0.7em 0.3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    background-color: #2e496b;
+}
+
+.ui-datepicker-trigger,
+.ui-datepicker-trigger img {
+    height: 30px;
+    width: 28px;
+    border: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: 0.2em 0;
+    background-color: #6d6969;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: 0.2em 0;
+    background-color: #FFC9C3;
+}
+.inner-sec {
+    display: flex;
+}
