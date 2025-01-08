@@ -23,8 +23,11 @@ namespace HR_PAYROLL_PROCESSING_SYSTEM
             {
                 if (!IsPostBack)
                 {
+                    string yymm = Request.QueryString["yymm"];
+                    string eid = Request.QueryString["eid"];
+
                     PREmployeePayrollManager objPREmployeePayrollManager = new PREmployeePayrollManager();
-                    DataTable dt = objPREmployeePayrollManager.LoadDetails(Convert.ToString(Session["eid"]), Convert.ToString(Session["yymm"]));
+                    DataTable dt = objPREmployeePayrollManager.LoadDetails(eid, yymm);
 
                     ReportDocument reportDocument = new ReportDocument();
                     reportDocument.Load(Server.MapPath("CrystalReport1.rpt"));

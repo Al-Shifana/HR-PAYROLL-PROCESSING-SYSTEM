@@ -43,7 +43,6 @@
                 }
             });
 
-
             $(function () {
                 var a = $(".commasep");
                 $.each(a, function () {
@@ -232,11 +231,6 @@
                         </asp:RequiredFieldValidator>
                     </div>
 
-                    <%--<div class="col-md-4">
-               <asp:Label ID="lblpswd" runat="server" class="form-label">Password</asp:Label>
-               <asp:TextBox ID="txtPswd" runat="server" TextMode="Password" class="form-control"></asp:TextBox>
-           </div>--%>
-
 
                     <div class="">
                         <asp:CheckBox ID="chkActive" runat="server" Checked="true" class="chk-style" />
@@ -258,23 +252,14 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <asp:Label ID="lblDesignation" runat="server" class="form-label">Designation</asp:Label>
-                                <asp:DropDownList runat="server" ID="ddlDesignation" CssClass="form-select"></asp:DropDownList>
-                                <%--<asp:TextBox ID="txtDesignation" runat="server" MaxLength="12" class="form-control"></asp:TextBox>--%>
-                                <%--<asp:RequiredFieldValidator 
-                                   ID="RequiredFieldValidator1"
-                                   ControlToValidate="txtEmpName"
-                                   ErrorMessage="Value is required" 
-                                   ForeColor="Red" runat="server"
-                                   CssClass="error-message">
-                  </asp:RequiredFieldValidator>--%>
+                                <asp:DropDownList runat="server" ID="ddlDesignation" CssClass="form-select"></asp:DropDownList>                               
                             </div>
                         </div>
 
                         <div class="col-md-3">
                             <div class="form-group">
                                 <asp:Label ID="lblGrade" runat="server" class="form-label">Grade</asp:Label>
-                                <asp:DropDownList runat="server" ID="ddlGrade" CssClass="form-select"></asp:DropDownList>
-                                <%--<asp:TextBox ID="txtGrade"  runat="server" class="form-control number-field"></asp:TextBox>--%>
+                                <asp:DropDownList runat="server" ID="ddlGrade" CssClass="form-select"></asp:DropDownList>                              
                             </div>
                         </div>
 

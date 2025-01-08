@@ -109,14 +109,13 @@
                             </div>
                         </div>
                     </div>
-                     <div>
-                      
+                    <div>
                     </div>
                     <br />
                     <div class="d-grid gap-2 d-flex justify-content-sm-center">
                         <asp:Button ID="btnPyslip" runat="server" Text="Payslip generation" OnClick="btnPyslip_Click" class="btn btn-primary me-md-2" />
                     </div>
-                    
+
                 </div>
             </div>
         </div>

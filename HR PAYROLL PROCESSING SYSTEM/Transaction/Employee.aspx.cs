@@ -143,7 +143,7 @@ namespace HR_PAYROLL_PROCESSING_SYSTEM.Transaction
                                 int st = objPREmployeeAttendanceMgr.InsertAttendanceNewEmp(objPrEmployeeAttendence);
                                 if (st > 0)
                                 {
-                                    string script = $@"
+                                    string script1 = $@"
                                  Swal.fire({{
                                  title: 'Success!',
                                  text: 'Employee Created Successfully.',
@@ -154,11 +154,10 @@ namespace HR_PAYROLL_PROCESSING_SYSTEM.Transaction
                                  window.location.href = 'Employee.aspx?pEmpNo={objPREmployee.empNO}';
                                 }}
                                 }});";
-                                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SwalFireScript", script, true);
+                                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SwalFireScript", script1, true);
                                 }
 
                             }
-
                         }
                     }
                     else if (btnSave.Text == "Update")

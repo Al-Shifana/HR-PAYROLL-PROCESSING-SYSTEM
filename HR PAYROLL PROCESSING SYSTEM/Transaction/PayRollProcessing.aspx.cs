@@ -297,9 +297,10 @@ namespace HR_PAYROLL_PROCESSING_SYSTEM.Transaction
         {
             string selectedMonth = ddlMonth.SelectedValue;
             string selectedYear = ddlYear.SelectedValue;
-            Session["yymm"] = selectedYear + selectedMonth;
-            Session["eid"] = grid1.DataKeys[e.NewEditIndex].Values["PR_EMP_NO"].ToString();
-            Response.Redirect("PaySlip.aspx");
+            string eid = grid1.DataKeys[e.NewEditIndex].Values["PR_EMP_NO"].ToString();
+            string yymm = selectedYear + selectedMonth;
+            string url = "PaySlip.aspx?yymm=" + yymm + "&eid=" + eid;
+            Response.Redirect(url);
         }
         protected void grid1_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
